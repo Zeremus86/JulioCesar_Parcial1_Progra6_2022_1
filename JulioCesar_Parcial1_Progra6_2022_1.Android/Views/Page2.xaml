@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JulioCesar_Parcial1_Progra6_2022_1.Droid.Views.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Entry  x:Name="TxtUserName" TextTransform="Lowercase" Placeholder="Email" FontSize="Large" TextColor="AliceBlue" Keyboard="Email" />
+
+            <Entry  x:Name="TxtFirstName" Placeholder="Firstname" FontSize="Large" TextColor="AliceBlue"/>
+
+            <Entry  x:Name="TxtLastName" Placeholder="Lastname" FontSize="Large" TextColor="AliceBlue"/>
+
+            <Entry  x:Name="TxtPhoneNumber" Keyboard="Telephone" Placeholder="Phone Number" FontSize="Large" TextColor="AliceBlue" />
+
+            <Entry  x:Name="TxtPassword" Placeholder="Password" FontSize="Large" IsPassword="True" TextColor="AliceBlue" />
+
+            <Entry  x:Name="TxtBackUpEmail" Placeholder="Back Up Email" FontSize="Large" TextColor="AliceBlue" Keyboard="Email"/>
+
+            <Entry  x:Name="TxtJobDescription" Placeholder="Job Description" FontSize="Large" TextColor="AliceBlue" />
+
+            <Button x:Name="BtnRegister" VerticalOptions="Center" Text="Regist" FontSize="Large" CornerRadius="15" TextColor="AliceBlue" BackgroundColor="LightSteelBlue" BorderColor="AliceBlue" BorderWidth="1"/>
+
+            <Button x:Name="BtnCancelar" VerticalOptions="Center" Text="Cancel" FontSize="Large" CornerRadius="15" TextColor="AliceBlue" BackgroundColor="LightSteelBlue" BorderColor="AliceBlue" BorderWidth="1"/>
+
+
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
